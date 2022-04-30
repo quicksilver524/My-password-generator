@@ -2,7 +2,7 @@
 
 Password generator Website: [https://quicksilver524.github.io/My-password-generator/]
 
-Github repo source [https://github.com/quicksilver524/My-password-generator/edit/main]
+Github repo source [https://github.com/quicksilver524/My-password-generator]
 
                                                 Description:
       Welcome to my password generator. The goals of this webpage is to produce a password generating 
