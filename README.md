@@ -2,7 +2,7 @@ My Password Generator
 
 Password generator Website: [https://quicksilver524.github.io/My-password-generator/]
 
-Password Generator Webpage:  ![Picture of webpage](./password-generate/assets/P-gen.png")
+Password Generator Webpage:  ![Picture of webpage](./password-generate/assets/P-gen.png)
 
 Github repo source [https://github.com/quicksilver524/My-password-generator/edit/main]
 
