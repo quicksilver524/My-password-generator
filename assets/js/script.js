@@ -93,6 +93,7 @@ function failSafe(){
 }
 
 function generatePassword() {
+  password = "";
   pwPrompt();
   casePick1();
   casePick2();
@@ -100,15 +101,26 @@ function generatePassword() {
   specialPick2()
   failSafe();
   var allChars = (pwLength - gChars.length);
-
   for (var i = 0; i <= allChars; i++) {
     var randoNum = Math.floor(Math.random() * chars.length);
     password += chars.substring(randoNum, randoNum + 1);
   };
   password += gChars;
-
+//Vallidating your password
   return password
 }
+
+function createPass() {
+  password = "";
+  var allChars = (pwLength - gChars.length);
+  for (var i = 0; i <= allChars; i++) {
+    var randoNum = Math.floor(Math.random() * chars.length);
+    password += chars.substring(randoNum, randoNum + 1);
+};
+password += gChars;
+password();
+}
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
