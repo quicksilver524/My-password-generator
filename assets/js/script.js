@@ -20,6 +20,7 @@ function pwPrompt(){
     return pwPrompt();}
 }
 
+//   Choosing Upper case function
 function casePick1(){
   var casePickU = "";
   casePickU = prompt('Would You Like to Include Uppercase? (yes or no)')
@@ -36,6 +37,8 @@ function casePick1(){
 }
 }
 
+
+//    Choosing Lowercase function
 function casePick2(){
   var casePickL = "";
   casePickL = prompt('Would You Like To Include Lowercase? (yes or no)')
@@ -52,6 +55,8 @@ if (casePickL === "yes") {
 }
 }
 
+
+//    Choosing Numbers function
 function specialPick1(){
   var specialPick = "";
   specialPick = prompt('Would You Like To Include "numbers"? (yes or no)')
@@ -68,6 +73,8 @@ if (specialPick === "yes") {
 }
 }
 
+
+//     Choosing special charaters function
 function specialPick2(){
   var specialPick = "";
   specialPick = prompt('Would You Like To Include Special Characters (special)? (yes or no)')
@@ -84,6 +91,8 @@ if (specialPick === "yes") {
 }
 }
 
+
+//  Ensuring at least one section is chosen, if not, you are looped back to the begining
 function failSafe(){
   var failSafe1 = gChars.length;
   if (failSafe1 < 1) {
@@ -92,6 +101,8 @@ function failSafe(){
   }
 }
 
+
+//     Generator for above chosen criteria
 function generatePassword() {
   pwPrompt();
   casePick1();
